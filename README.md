@@ -23,6 +23,11 @@
             <ol> chmod 664 database/database.sqlite </ol>
         </ul>        
     </li>
+    <li> Recuerda migrar base datos 
+        <ul> SHELL
+            <ol> php artisan migrate </ol>
+        </ul>    
+    </li>
     <li> Finalmente, ya puedes usar php artisan serve. Recuerda puedes mirar logs de proceso para ver si hay errores, warning,... 
         <ul> SHELL
             <ol> tail -f /logs/laravel.log </ol>
