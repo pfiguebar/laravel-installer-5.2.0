@@ -28,6 +28,12 @@
             <ol> php artisan migrate </ol>
         </ul>    
     </li>
+    <li> Instalar dependencias npm (vite)
+        <ul> SHELL
+            <ol> npm install </ol>
+            <ol> npm run build </ol>
+        </ul>
+    </li>     
     <li> Finalmente, ya puedes usar php artisan serve. Recuerda puedes mirar logs de proceso para ver si hay errores, warning,... 
         <ul> SHELL
             <ol> tail -f /logs/laravel.log </ol>
